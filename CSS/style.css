@@ -1,35 +1,32 @@
 /* General Rules */
 
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: "Fredoka", sans-serif;
-    font-size: 25px;
-    color: #fc036f;
-    font-weight: 700;
+    font-size: 14px;
 }
 
+/* Header */
 
-/* Container Rules */
-#container {
-    width: 80%;
-    margin: 20px auto;
+header {
+    height: 100px;
+    /*DEBUG*/
+    
+    background-color: aqua;
 }
 
-/* Title Section Rules */
+/* Main */
 
-#title {
-    text-align: center;
-    margin-bottom: 40px;
-}
 
-p {
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 50px;
+/* Footer */
+
+footer {
+    /*DEBUG*/
+    height: 150px;
+    background-color: yellowgreen;
 }
