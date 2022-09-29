@@ -54,7 +54,7 @@ p {
     height: 100px;
     margin: 1% 1%;
     color: #fff;
-    box-shadow: 3px 3px grey;
+    box-shadow: 3px 3px 3px grey;
 }
 
 /* Card Section Rules */
