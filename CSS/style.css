@@ -11,22 +11,57 @@ body {
     font-size: 14px;
 }
 
-/* Header */
-
-header {
-    height: 100px;
-    /*DEBUG*/
-    
-    background-color: aqua;
-}
-
 /* Main */
 
-
-/* Footer */
-
-footer {
+main {
     /*DEBUG*/
-    height: 150px;
-    background-color: yellowgreen;
+    margin: 30px 0;
 }
+
+/* Title Section Rules */
+#title {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px auto;
+    width:80%;
+}
+
+h1 {
+    color: #e3057f;
+}
+
+p {
+    margin-top: 50px;
+}
+
+/* Regole Griglia */
+
+#card {
+    width: 80%;
+    margin: auto;
+}
+
+    /* Clearfix */
+
+    .row::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.row {
+    min-height: 200px;
+}
+
+
+.col {
+    float: left;
+    width: calc(90%/3);
+    /*DEBUG*/
+    background-color: #020114;
+    min-height: 200px;
+    border: 1px solid black;
+    margin: 1% 1%;
+}
+
+
