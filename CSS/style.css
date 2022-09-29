@@ -8,4 +8,28 @@
 
 body {
     font-family: "Fredoka", sans-serif;
+    font-size: 25px;
+    color: #fc036f;
+    font-weight: 700;
+}
+
+
+/* Container Rules */
+#container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Title Section Rules */
+
+#title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 50px;
 }
